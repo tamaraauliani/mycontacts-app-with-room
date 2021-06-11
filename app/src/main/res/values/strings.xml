@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">My Contacts App</string>
+    <string name="app_name">My Contacts</string>
     <string name="search">Search</string>
     <string name="name_contact">Name</string>
     <string name="number_contact">Phone Number</string>

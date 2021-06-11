@@ -3,7 +3,9 @@
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content">
+    android:layout_height="wrap_content"
+    android:background="#FDFAF6"
+    android:padding="0dp">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -15,9 +17,22 @@
             android:id="@+id/item_name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="3dp"
             android:text="@string/name_contact"
+            android:textColor="#CC9B6D"
             android:textSize="17sp"
             android:textStyle="bold" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="0dp"
+            android:background="#F4CCA4"
+            android:backgroundTintMode="screen"/>
+
     </LinearLayout>
 
 </RelativeLayout>

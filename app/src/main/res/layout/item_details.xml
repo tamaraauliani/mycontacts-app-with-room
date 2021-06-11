@@ -1,17 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
+    android:background="#FDFAF6"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="20dp">
+    android:padding="25dp">
 
     <TextView
         android:id="@+id/name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="3dp"
         android:text="@string/name_contact"
         android:textSize="15sp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        android:textColor="#CC9B6D"/>
 
     <TextView
         android:id="@+id/contact_content"
@@ -19,7 +22,8 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="3dp"
         android:text="@string/number_contact"
-        android:textSize="15sp" />
+        android:textSize="15sp"
+        android:textColor="#CC9B6D"/>
 
     <TextView
         android:id="@+id/address_content"
@@ -27,5 +31,6 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="3dp"
         android:text="@string/address_contact"
-        android:textSize="15sp" />
+        android:textSize="15sp"
+        android:textColor="#CC9B6D"/>
 </LinearLayout>
